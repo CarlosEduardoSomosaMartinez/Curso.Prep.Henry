@@ -1,0 +1,38 @@
+ body{
+     background-image:url(https://www.alambique.com/img/cms/COCHINILLO%20TRUCOS/horno-le%C3%B1a-fuego.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+
+ }
+h1{
+    color: crimson;
+}
+h2,h3{
+    color: blueviolet;
+}
+img{
+    width: 400px;
+}
+#thirdDiv{
+    width: 500px;
+    height: 600px;
+    background-color: cyan;
+    padding: 50px;
+    border:3px solid fuchsia;
+}
+#spanId{
+    font-size: 18px;
+}
+.divClass{
+    display: grid;
+    justify-content: center;
+    color: blueviolet;
+    text-align: center;
+}
+a{
+    text-decoration: nonevb;
+}
+ 
