@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        :root{
+            --principal:#e0a801;
+            --secundario:#000000;
+            --fuente-primaria:'Big Shoulders Stencil Display';
+            --fuente-secundaria:'IBM Plex Mono';
+            
+        }
+        html{
+            font-size: 62.5%;
+        }
+        body{
+            margin: 0px;
+            font-size: 16px;
+        
+        }
+        h2{
+            font-family: var(--fuente-primaria);
+            font-size: 3.8rem;
+            margin: .5rem;
+            text-align: center;
+
+        }
+        p{
+            font-family: var(--fuente-secundaria);
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        li{
+            font-size: 2.5rem;
+            margin: 2rem;
+            font-family:var(--fuente-secundaria);
+            list-style: none;
+        }
+        footer{
+        
+        }
+      
+    
+        .centrador{
+            text-align: center;
+        }
+
+        .titulo{
+            margin: 1rem auto 0rem auto;
+            text-align:center;
+            font-family: var(--fuente-primaria);
+            font-size:4.5rem;
+        }
+        .navegacion{
+            background-color: var(--principal);
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .navegacion__enlace{
+            margin:1rem;
+            font-family: var(--fuente-secundaria);
+            text-decoration: none;
+            color: var(--secundario);
+            font-size: 2rem;
+            font-weight:normal;
+        }
+        .bk-navegacion{
+            background-color: var(--principal);
+        }
+        .contenedor{
+         max-width: 120rem;
+         margin:auto;
+        }
+        .contenedor2{
+            
+            max-width:100rem;
+            margin: auto;
+        }
+        .centro{
+            text-align: center;
+            margin: 15rem auto;
+
+        }
+        .centro p{
+            margin: 1rem;
+            font-size:4rem;
+            font-family: var(--fuente-primaria);
+        }
+        .contedorColor{
+            background-color: var(--principal);
+            padding: 1rem;
+        
+        }
+        .formato{
+            text-align: justify;
+        }
+        .margin{
+            margin-top:3rem;
+        }
+        .contenedor-flex{
+            text-align: center ;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+        }
+        .contenedor-flex h2{
+            flex-basis:50%;
+            font-size: 5rem;
+            
+        }
+        .contenedor-flex div{
+            flex-basis:50%;
+        }
+        .amplificador{
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+        .fontamplificador{
+            font-size:2.5rem ;
+
+        }
+        .order1{
+            
+            order: -1;
+          }
+          .marcoImagen>img{
+              border-radius:50%;
+              margin-left:30%;
+              margin-right:30%;
+              border: 1rem solid var(--principal);
+              object-fit: cover;
+          }
+          .hobbies>img{
+            object-fit: cover;
+            border-radius: 50%;
+            width:18rem;
+          }
+        .footer{
+            text-align: center;
+            
+        }
+        footer{
+            height: 10rem;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="titulo">El mejor peor C.V</h1>
+    <header>
+         
+        <div class="bk-navegacion">
+            <nav class="navegacion contenedor">
+                <a class="navegacion__enlace"href="">Proximamente</a>
+                <a class="navegacion__enlace"href="">Algo Epico</a>
+                <a class="navegacion__enlace"href="">Epicooo!!!</a>
+            </nav>
+        <div>
+        
+    </header>
+    <section class="centro contenedor">
+        <div class="icon-margen">
+            <svg class=xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alert-triangle" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#e0a801" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M12 9v2m0 4v.01" />
+                <path d="M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75" />
+            </svg>
+        </div>
+          <p>En construccion</p>
+    </section>
+    <main class="contenedor2">
+        
+            <div class="centrador">
+                <h2>Descirpcion Personal</h2>
+            </div>
+            <div class="contedorColor formato">
+            <p>Soy alguien distraído y poco hábil socialmente hablando se podría decir incluso insolente me cuesta aprender
+                algunas cosas pero también creo que las cosas que se quieren se alcansan con sacrificio propio y con mucha determinación
+                ya que tienes talento o te esfuerzas y creo que el talento palidece ante la determinación y voluntad.También me gusta el profundizar
+                en la información o conocimiento que tengo para poder mejorar.Se que tengo defectos y no me escudo bajo la condición de ser humano
+                si no que busco la manera de ser la mejor versión mía posible.</p>
+            </div>
+
+        </section>
+        <section class="contenedor-flex margin ">
+            
+            <h2 >Educacion</h2>
+            <div class="contedorColor ">
+                <ul>
+                    <li>Primaria</li>
+                    <li>Secundari</li>
+                    <li>Bachillerato</li>
+                    <li>Universidad Hasta 5 Semestre</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="margin centrador">
+            <h2>Experiencias Laborales</h2>
+            <div  class="contedorColor amplificador">
+            <p class="fontamplificador">auxiliar de Albañil en mis tiempos libres</p>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-backhoe" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="4" cy="17" r="2" />
+                <circle cx="13" cy="17" r="2" />
+                <line x1="13" y1="19" x2="4" y2="19" />
+                <line x1="4" y1="15" x2="13" y2="15" />
+                <path d="M8 12v-5h2a3 3 0 0 1 3 3v5" />
+                <path d="M5 15v-2a1 1 0 0 1 1 -1h7" />
+                <path d="M21.12 9.88l-3.12 -4.88l-5 5" />
+                <path d="M21.12 9.88a3 3 0 0 1 -2.12 5.12a3 3 0 0 1 -2.12 -.88l4.24 -4.24z" />
+              </svg>
+            </div>
+        </section>
+        <section class="contenedor-flex margin">
+            <h2>Skills</h2>
+            <div class="contedorColor order1">
+                <p>Conocimiento basicos en:</p>
+                 <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
+                    <li>c++</li>
+                    <li>java</li>
+                    <li>mysql</li>
+                 </ul>
+            </div>
+        </section>
+        <section>
+            <div class="marcoImagen margin">
+                <img src="https://avatars.githubusercontent.com/u/85375369?s=400&u=0a8b9491e7409cd02fe69dd7e56d26e6225dad33&v=4" alt="">
+            </div>
+        </section>
+        <section class="contedorColor margin">
+            <h2>Hobbies</h2>
+            <div class="contenedor-flex">
+                <div class="hobbies">
+                    <img src="https://pbs.twimg.com/profile_images/1312065306320269315/lbSNK8zx_400x400.png" alt="kovaks">
+                    <p>los aim trainers</p>
+                </div>
+                <div class="hobbies">
+                    <img src="https://liberalarts.tamu.edu/wp-content/uploads/2020/03/glenn-carstens-peters-npxXWgQ33ZQ-unsplash-400x400.jpg" alt="typing">
+                    <p>practicar la velocidad al escribir en teclado</p>
+                </div>
+                <div class="hobbies">
+                    <img src="https://sanviatur.com/wp-content/uploads/2019/03/SENDERISMO-400x400.jpg" alt="senderismo">
+                    <p>caminar por los campos en el pueblo donde vivo</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="margin bk-navegacion ">
+        <div class="contenedor footer">
+            <p>contactame:CarlosEduardoSomosaMartinez@protonmail.com</p>
+        </div>
+    </footer>
+</body>
+</html>
